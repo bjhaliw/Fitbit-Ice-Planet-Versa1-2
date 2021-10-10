@@ -1,0 +1,13 @@
+<svg>
+  <image href="planet.png" />
+  <textarea id="clockLabel" />
+  <textArea id="clockLabelRight" />
+  <text id="dateLabel"/>
+  <text id="heartRateLabel" />
+  <text id="stepsLabel" />
+  <text id="caloriesLabel" />
+  <image height="25" width="25" href="heart.png" x="138" y="25"/>
+  <image height="20" width="20" href="steps.png" x="140" y="110"/>
+  <image height="20" width="20" href="flame.png" x="140" y="70"/>
+ 
+</svg>

@@ -1,0 +1,55 @@
+#clockLabel {
+  font-size: 85;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 9%;
+  y: 5;
+  fill: white;
+}
+
+#clockLabelRight {
+  font-size: 85;
+  font-family: System-Bold;
+  text-length: 32;
+  x: 25%;
+  y: 5;
+  text-anchor: start;
+  fill: white;
+}
+
+#dateLabel {
+  font-size: 30;
+  font-family: System-Regular;
+  text-length: 32;
+  x: 140;
+  y: 170;
+  fill: white;
+}
+
+#stepsLabel {
+  font-size: 30;
+  font-family: System-Regular;
+  text-length: 32;
+  x: 170;
+  y: 130;
+  fill: white;
+}
+
+#caloriesLabel {
+  font-size: 30;
+  font-family: System-Regular;
+  text-length: 32;
+  x: 170;
+  y: 90;
+  fill: white;
+}
+
+
+#heartRateLabel {
+  font-size: 30;
+  font-family: System-Regular;
+  text-length: 32;
+  x: 170;
+  y: 47;
+  fill: white;
+}

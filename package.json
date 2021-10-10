@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "e89694a5-7f61-4eb8-804c-6cccfdc9fc30",
+    "appType": "app",
+    "appDisplayName": "IcePlanetVersa2",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "mira",
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "IcePlanetVersa2"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
