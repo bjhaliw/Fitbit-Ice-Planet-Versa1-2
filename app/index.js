@@ -1,7 +1,7 @@
 import clock from "clock";
 import * as document from "document";
 import { preferences } from "user-settings";
-import * as util from "../companion/utils";
+import * as util from "../common/utils";
 import { HeartRateSensor } from "heart-rate";
 import { me as appbit } from "appbit";
 import { today } from "user-activity";
@@ -37,19 +37,18 @@ function getAllStats() {
 clock.ontick = (evt) => {
   let today = evt.date;
   let hours = today.getHours()
+  
   if (preferences.clockDisplay === "12h") {
     // 12h format
     hours = hours % 12 || 12;
-  } else {
-    // 24h format
-    hours = util.zeroPad(hours);
   }
+  
+  hours = util.zeroPad(hours);
   let mins = util.zeroPad(today.getMinutes());
   let secs = util.zeroPad(today.getSeconds());
    
   clockLabel.text = hours.toString().substring(0,1) + "\n" + mins.toString().substring(0,1)
   clockLabelRight.text = hours.toString().substring(1,2) + "\n" + mins.toString().substring(1, 2)
-  
   
   dateLabel.text = `${evt.date.toString().substring(0, 10)}`
   
